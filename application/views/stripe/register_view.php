@@ -16,6 +16,14 @@
             font-size: 14px;
             color: #fff; /* change text color to white */
         }
+        .email
+        {
+            width: calc(100% - 46px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+        }
         
     </style>
 <body>
@@ -24,8 +32,8 @@
     <form action="<?= base_url('StripePayment/register_user') ?>" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
-        <label for="password">Email-Id:</label>
-        <input type="password" id="password" name="password" required><br><br>
+        <label for="email">Email-Id:</label>
+        <input type="email" id="email" name="email" class="email" required><br><br>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br><br>
         <!-- Additional fields for registration -->
