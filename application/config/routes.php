@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'StripePayment/index';
+$route['default_controller'] = 'StripePayment/login';
 $route['stripe/callback'] = 'StripePayment/callback';
 $route['stripe/checkout/(:any)'] = 'StripePayment/checkout/$1';
 $route['stripe/success'] = 'StripePayment/success';
