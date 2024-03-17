@@ -1,0 +1,88 @@
+
+    /* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px; /* Adjust width as needed */
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Header styling */
+.header {
+    text-align: center; /* Center align the buttons */
+    margin-bottom: 20px; /* Add some space between header and form */
+}
+
+.header button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default button border */
+    padding: 10px 20px; /* Add padding to the buttons */
+    margin: 0 10px; /* Add some spacing between buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.header button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 46px); /* Adjust width as needed */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
